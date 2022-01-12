@@ -1,7 +1,7 @@
 .body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   margin: 0;
-  background-image: url(../img/vernon-raineil-cenzon-vLF2n8fiFPY-unsplash.jpg);
+  background-image: url(../img/vernon-raineil-cenzon-vLF2n8fiFPY-unsplash_KK.jpg);
   background-size: cover;
   background-position: center center;
   min-height: 100vh;
@@ -16,11 +16,45 @@
       -ms-flex-direction: column;
           flex-direction: column;
   color: white;
-  text-shadow: 0px 1px 2px black;
 }
 
 .header {
   margin-top: 5%;
   font-size: 2.5rem;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+}
+
+.element {
+  margin: 0 3rem;
+  font-size: 3rem;
+  line-height: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  margin: 1rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 /*# sourceMappingURL=style.css.map */
