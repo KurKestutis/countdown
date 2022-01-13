@@ -1,6 +1,11 @@
+@font-face {
+  font-family: kg-summer-sunshine-shadow;
+  src: url(../fonts/kg-summer-sunshine-shadow.ttf);
+}
+
 .body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "kg-summer-sunshine-shadow", "Trebuchet MS",
+    "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   margin: 0;
   background-image: url(../img/vernon-raineil-cenzon-vLF2n8fiFPY-unsplash_KK.jpg);
   background-size: cover;
@@ -13,7 +18,7 @@
 }
 
 .header {
-  margin-top: 5%;
+  margin-top: 1%;
   font-size: 2.5rem;
 }
 
