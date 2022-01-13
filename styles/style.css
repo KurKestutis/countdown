@@ -25,6 +25,7 @@
 
 .header {
   margin-top: 1%;
+  margin-bottom: -3rem;
   font-size: 2.5rem;
 }
 
@@ -55,6 +56,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.number {
+  padding-bottom: 1rem;
 }
 
 .footer {
