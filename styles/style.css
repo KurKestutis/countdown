@@ -21,6 +21,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   color: white;
+  padding: 1rem;
 }
 
 .header {
@@ -40,6 +41,8 @@
   -webkit-box-flex: 1;
       -ms-flex: 1 1;
           flex: 1 1;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .element {
@@ -66,5 +69,19 @@
   margin: 1rem;
   -ms-flex-item-align: end;
       align-self: flex-end;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  .element {
+    font-size: 1.5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */
