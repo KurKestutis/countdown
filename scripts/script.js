@@ -29,11 +29,11 @@ const calculateTime = () => {
   }
 
   if (minNum == 1) {
-    minuteName.innerHTML == "Minut";
+    minuteName.innerHTML = "Minut";
   }
 
   if (secNum == 1) {
-    secName.innerHTML == "Second";
+    secName.innerHTML = "Second";
   }
 
   dayEl.innerHTML = dayNum;
