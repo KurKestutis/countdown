@@ -29,7 +29,7 @@ const calculateTime = () => {
   }
 
   if (minNum == 1) {
-    minuteName.innerHTML = "Minut";
+    minuteName.innerHTML = "Minute";
   }
 
   if (secNum == 1) {

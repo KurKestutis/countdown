@@ -49,14 +49,31 @@
   align-self: flex-end;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1370px) {
   .header {
     margin-bottom: 1rem;
     font-size: 1.5rem;
   }
   .element {
     font-size: 1.5rem;
-    // display: flex;
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    padding: 1rem 0;
+    margin: 0.01rem;
+    font-size: 0.7rem;
+  }
+  .element {
+    font-size: 0.8rem;
+    margin: 0 1rem;
+  }
+  .number {
+    font-size: 1.3rem;
+  }
+  .footer {
+    padding: 1rem 0;
   }
 }
