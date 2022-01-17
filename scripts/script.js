@@ -9,8 +9,9 @@ const minuteName = document.getElementById("minNameId");
 const secondName = document.getElementById("secNameId");
 
 const calculateTime = () => {
-  const target = new Date("1 Jan 2023");
   const timeNow = new Date();
+  const target = new Date(`1 Jan ${timeNow.getFullYear() + 1}`);
+
   const timeDifferenceInSeconds = (target - timeNow) / 1000;
   console.log(timeDifferenceInSeconds);
 
