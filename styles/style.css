@@ -21,7 +21,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   color: white;
-  padding: 1rem;
 }
 
 .header {
@@ -99,9 +98,6 @@
   }
   .number {
     font-size: 1.3rem;
-  }
-  .footer {
-    padding: 1rem 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

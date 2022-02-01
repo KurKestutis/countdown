@@ -13,13 +13,11 @@ const calculateTime = () => {
   const target = new Date(`1 Jan ${timeNow.getFullYear() + 1}`);
 
   const timeDifferenceInSeconds = (target - timeNow) / 1000;
-  console.log(timeDifferenceInSeconds);
 
   const dayNum = Math.floor(timeDifferenceInSeconds / 3600 / 24);
   const hourNum = Math.floor((timeDifferenceInSeconds / 3600) % 24);
   const minNum = Math.floor((timeDifferenceInSeconds / 60) % 60);
   const secNum = Math.floor(timeDifferenceInSeconds % 60);
-  console.log(dayNum, hourNum, minNum, secNum);
 
   if (dayNum == 1) {
     dayName.innerHTML = "Day";
