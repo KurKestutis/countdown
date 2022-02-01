@@ -34,7 +34,9 @@ const calculateTime = () => {
   }
 
   if (secNum == 1) {
-    secName.innerHTML = "Second";
+    secondName.innerHTML = "Second";
+  } else {
+    secondName.innerHTML = "Seconds";
   }
 
   dayEl.innerHTML = dayNum;
