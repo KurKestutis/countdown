@@ -19,29 +19,10 @@ const calculateTime = () => {
   const minNum = Math.floor((timeDifferenceInSeconds / 60) % 60);
   const secNum = Math.floor(timeDifferenceInSeconds % 60);
 
-  if (dayNum == 1) {
-    dayName.innerHTML = "Day";
-  } else {
-    dayName.innerHTML = "Days";
-  }
-
-  if (hourNum == 1) {
-    hourName.innerHTML = "Hour";
-  } else {
-    hourName.innerHTML = "Hours";
-  }
-
-  if (minNum == 1) {
-    minuteName.innerHTML = "Minute";
-  } else {
-    minuteName.innerHTML = "Minutes";
-  }
-
-  if (secNum == 1) {
-    secondName.innerHTML = "Second";
-  } else {
-    secondName.innerHTML = "Seconds";
-  }
+  dayName.innerHTML = `${dayNum == 1 ? "Day" : "Days"}`;
+  hourName.innerHTML = `${hourNum == 1 ? "Hour" : "Hours"}`;
+  minuteName.innerHTML = `${minNum == 1 ? "Minute" : "Minutes"}`;
+  secondName.innerHTML = `${secNum == 1 ? "Second" : "Seconds"}`;
 
   dayEl.innerHTML = dayNum;
   hourEl.innerHTML = hourNum;
@@ -50,5 +31,4 @@ const calculateTime = () => {
 };
 
 calculateTime();
-
 setInterval(calculateTime, 1000);
