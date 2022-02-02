@@ -21,14 +21,20 @@ const calculateTime = () => {
 
   if (dayNum == 1) {
     dayName.innerHTML = "Day";
+  } else {
+    dayName.innerHTML = "Days";
   }
 
   if (hourNum == 1) {
     hourName.innerHTML = "Hour";
+  } else {
+    hourName.innerHTML = "Hours";
   }
 
   if (minNum == 1) {
     minuteName.innerHTML = "Minute";
+  } else {
+    minuteName.innerHTML = "Minutes";
   }
 
   if (secNum == 1) {
